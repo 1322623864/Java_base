@@ -1,6 +1,6 @@
 package com.thread;
 
-public class Qianpiao implements Runnable{
+public class Qiangpiao implements Runnable{
     private int ticketnum = 10;
     @Override
     public void run() {
@@ -18,9 +18,9 @@ public class Qianpiao implements Runnable{
     }
 
     public static void main(String[] args) {
-        Qianpiao qianpiao = new Qianpiao();
-        new Thread(qianpiao,"卫晨阳").start();
-        new Thread(qianpiao,"孙嘉旭").start();
-        new Thread(qianpiao,"张之路").start();
+        Qiangpiao qiangpiao = new Qiangpiao();
+        new Thread(qiangpiao,"卫晨阳").start();
+        new Thread(qiangpiao,"孙嘉旭").start();
+        new Thread(qiangpiao,"张之路").start();
     }
 }
